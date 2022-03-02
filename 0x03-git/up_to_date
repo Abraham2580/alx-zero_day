@@ -1,0 +1,56 @@
+me@DESKTOP-J6BSKT1 MINGW64 ~
+$ git pull
+fatal: not a git repository (or any of the parent directories): .git
+
+me@DESKTOP-J6BSKT1 MINGW64 ~
+$ cd desktop
+
+me@DESKTOP-J6BSKT1 MINGW64 ~/desktop
+$ cd axl-pre_course
+bash: cd: axl-pre_course: No such file or directory
+
+me@DESKTOP-J6BSKT1 MINGW64 ~/desktop
+$ cd alx-pre_course
+
+me@DESKTOP-J6BSKT1 MINGW64 ~/desktop/alx-pre_course/0x01-git (main)
+$ cd -
+
+me@DESKTOP-J6BSKT1 MINGW64 ~/desktop/alx-pre_course (main)
+$ touch up_to_date
+me@DESKTOP-J6BSKT1 MINGW64 ~/desktop/alx-pre_course (main)
+$ cd up_to_date
+
+me@DESKTOP-J6BSKT1 MINGW64 ~/desktop/alx-pre_course (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+me@DESKTOP-J6BSKT1 MINGW64 ~/desktop/alx-pre_course (main)
+$ git pull
+remote: Enumerating objects: 58, done.
+remote: Counting objects: 100% (57/57), done.
+remote: Compressing objects: 100% (37/37), done.
+remote: Total 46 (delta 5), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (46/46), 8.86 KiB | 0 bytes/s, done.
+From https://github.com/Abraham2580/alx-pre_course
+   6540d55..97fcd35  main          -> origin/main
+   b3dc15a..07224f0  update_script -> origin/update_script
+Updating 6540d55..97fcd35
+Fast-forward
+ 0x01-git/bash/alx    | 2 +-
+ 0x01-git/js/index.js | 0
+ 0x01-git/js/main.js  | 0
+ 0x01-git/up_to_date  | 1 +
+ README.md            | 1 +
+ 5 files changed, 3 insertions(+), 1 deletion(-)
+ delete mode 100644 0x01-git/js/index.js
+ delete mode 100644 0x01-git/js/main.js
+ create mode 100644 0x01-git/up_to_date
+
+me@DESKTOP-J6BSKT1 MINGW64 ~/desktop/alx-pre_course (main)
+$ ^C
+
+me@DESKTOP-J6BSKT1 MINGW64 ~/desktop/alx-pre_course (main)
+$
